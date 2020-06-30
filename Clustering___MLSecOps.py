@@ -143,6 +143,6 @@ res = Freq_Counter(map_ip['IP'].tolist(), map_ip['ip'].tolist())
 
 ######################## Storing Suspicious IP in a File ########################
 
-file1 = open('suspicious_ip.txt', 'w')
+file1 = open('/output/suspicious_ip.txt', 'w')
 file1.write(res)
 file1.close()
