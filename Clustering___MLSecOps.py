@@ -39,7 +39,7 @@ import re
 import pandas as pd
 
 dataset = pd.read_csv(
-    'log_data/access_log',
+    '/ml_task5/log_data/access_log',
     sep=r'\s(?=(?:[^"]*"[^"]*")*[^"]*$)(?![^\[]*\])',
     engine='python',
     na_values='-',
